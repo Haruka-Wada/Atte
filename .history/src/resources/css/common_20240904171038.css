@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    font-size: 100px;
+}
+
+.

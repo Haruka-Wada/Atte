@@ -9,8 +9,4 @@ class AtteController extends Controller
     public function index() {
         return view ('stamp');
     }
-
-    public function register() {
-        return view('register');
-    }
 }

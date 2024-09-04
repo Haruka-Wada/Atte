@@ -1,0 +1,21 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: ;
+}
+
+.header_container {
+    height: 60px;
+    padding: 20px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 40px;
+}
+
+.main_container {
+    background-color: gainsboro;
+}

@@ -1,0 +1,7 @@
+.header-nav {
+    display: flex;
+}
+
+.header-nav__item {
+    padding: 20px;
+}

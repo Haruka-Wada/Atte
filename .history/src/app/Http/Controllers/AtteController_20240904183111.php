@@ -11,6 +11,6 @@ class AtteController extends Controller
     }
 
     public function register() {
-        return view('register');
+        
     }
 }
