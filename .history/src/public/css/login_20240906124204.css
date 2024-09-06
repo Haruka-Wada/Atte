@@ -8,7 +8,7 @@
 .main-title {
     padding: 50px;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: ;
 }
 
 .main-form {
@@ -37,7 +37,7 @@
     font-size: 16px;
 }
 
-.main-login p{
+.main-login p {
     color: gray;
     padding: 5px;
 }

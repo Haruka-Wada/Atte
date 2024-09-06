@@ -14,7 +14,7 @@ class AtteController extends Controller
         return view('register');
     }
 
-    public function login() {
-        return view('login');
+    public function lofin() {
+        return view('login')
     }
 }
