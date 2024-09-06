@@ -1,0 +1,10 @@
+.main-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-title {
+    padding: 50px;
+    font-size: 25px;
+}

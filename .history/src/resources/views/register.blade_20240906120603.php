@@ -16,12 +16,9 @@
             <input type="text" class="main-form__input" name="email" placeholder="メールアドレス">
             <input type="text" class="main-form__input" name="password" placeholder="パスワード">
             <input type="text" class="main-form__input" name="password_confirmation" placeholder="確認用パスワード">
-            <button class="main-form__button">会員登録</button>
+            <button>会員登録</button>
         </form>
     </div>
-    <div class="main-login">
-        <p>アカウントをお持ちの方はこちらから</p>
-        <a href="#">ログイン</a>
-    </div>
+    div.
 </div>
 @endsection

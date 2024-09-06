@@ -1,6 +1,6 @@
 .main-container {
     width: 25%;
-    padding: 30px;
+    paddin
     margin: 0 auto;
     text-align: center;
 }
@@ -20,7 +20,7 @@
     box-sizing: border-box;
     padding: 10px;
     margin-bottom: 30px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 2px solid gray;
     font-size: 16px;
 }
@@ -30,15 +30,13 @@
     height: 50px;
     color: #fff;
     margin-bottom: 30px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     background-color: blue;
-    font-size: 16px;
 }
 
 .main-login p{
     color: gray;
-    padding: 5px;
 }
 
 .main-login a {
