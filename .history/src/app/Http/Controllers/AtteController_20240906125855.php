@@ -18,7 +18,5 @@ class AtteController extends Controller
         return view('login');
     }
 
-    public function attendance() {
-        return view('attendance');
-    }
+    public function attendance
 }

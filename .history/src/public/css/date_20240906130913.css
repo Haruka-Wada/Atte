@@ -1,0 +1,32 @@
+.header-nav {
+    display: flex;
+}
+
+.header-nav__item {
+    padding: 20px;
+}
+
+.header-nav__button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+}
+
+.header-nav__item:last-of-type {
+    padding-right: 0;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-table {
+    width: 100%;
+}
+
+.main-table tr {
+    display: flex;
+    justify-content: space-around;
+}

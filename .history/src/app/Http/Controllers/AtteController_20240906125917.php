@@ -19,6 +19,6 @@ class AtteController extends Controller
     }
 
     public function attendance() {
-        return view('attendance');
+        return view('attendance')
     }
 }

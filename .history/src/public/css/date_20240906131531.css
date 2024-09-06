@@ -18,28 +18,23 @@
 }
 
 .main-container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
-.main-message {
-    font-size: 30px;
-    text-align: center;
-    padding: 60px;
+.main-table {
+    width: 100%;
 }
 
-.main-item {
+.main-table table {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.main-button {
-    width: 47%;
-    height: 230px;
-    font-size: 30px;
-    border: none;
-    background-color: #fff;
-    margin-bottom: 50px;
-    border-radius: 5px;
+.main-table tr{
+    font-size: 20px;
+}
+
+.main-table th {
+    
 }
