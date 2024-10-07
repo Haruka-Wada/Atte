@@ -79,7 +79,11 @@ class AtteController extends Controller
                 'rest_time' => new Carbon('00:00:00')
             ]);
         }
-        $work_time = $work->workTime($totalWorkTime);
+            $work_time = $work->workTime($totalWorkTime);
+        } else {
+            $work_time = $totalWorkTime;
+            
+        }
         $work->update([
             'work_time' => $work_time
         ]);

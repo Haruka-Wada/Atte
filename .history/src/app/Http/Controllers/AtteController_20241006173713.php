@@ -80,6 +80,7 @@ class AtteController extends Controller
             ]);
         }
         $work_time = $work->workTime($totalWorkTime);
+
         $work->update([
             'work_time' => $work_time
         ]);

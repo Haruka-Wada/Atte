@@ -74,12 +74,12 @@ class AtteController extends Controller
 
         //勤務時間の計算
         $totalWorkTime = $work->totalWorkTime();
-        if(empty($work->rest_time)) {
-            $work->update([
-                'rest_time' => new Carbon('00:00:00')
-            ]);
+        if(isset($work->rest_time)) {
+            $work_time = $work->workTime($totalWorkTime);
+        } else {
+            $work_time = $totalWorkTime;
+            
         }
-        $work_time = $work->workTime($totalWorkTime);
         $work->update([
             'work_time' => $work_time
         ]);

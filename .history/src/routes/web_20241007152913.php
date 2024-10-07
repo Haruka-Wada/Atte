@@ -25,4 +25,3 @@ Route::middleware(['verified'])->group(function() {
         Route::post('/restEnd', [AtteController::class, 'restEnd']);
         Route::post('/attendance', [AtteController::class, 'changeDate']);
     });
-});
