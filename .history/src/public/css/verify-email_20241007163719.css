@@ -1,0 +1,9 @@
+.mail-text {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.mail-message {
+    color: gree;
+}
