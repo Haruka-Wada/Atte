@@ -1,0 +1,63 @@
+.header-nav {
+    display: flex;
+}
+
+.header-nav__item {
+    padding: 20px;
+}
+
+.header-nav__link {
+    font-size: 20px;
+    font-weight: 600;
+    decoratio
+    border: none;
+}
+
+.header-nav__button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+}
+
+.header-nav__item:last-of-type {
+    padding-right: 0;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-message {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.main-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.main-table tr {
+    font-size: 20px;
+}
+
+.main-table th {
+    padding: 30px 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.main-table td {
+    padding: 30px 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.main-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
