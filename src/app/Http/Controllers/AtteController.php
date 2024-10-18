@@ -8,7 +8,6 @@ use App\Models\User;
 use App\Models\Work;
 use App\Models\Rest;
 use Carbon\Carbon;
-use Illuminate\pagination\LengthAwarePaginator;
 
 class AtteController extends Controller
 {
@@ -48,7 +47,7 @@ class AtteController extends Controller
 
         $newTimestampDay = Carbon::today();
 
-        if(($oldTimestampDay == $newTimestampDay) && (empty($oldTimestamp->end_time))) {
+        if(isset($oldTimestampDay) && ($oldTimestampDay == $newTimestampDay) && (empty($oldTimestamp->end_time))) {
             return back()->with('error', '既に勤務開始ボタンが押されています');
         }
 
